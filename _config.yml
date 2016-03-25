@@ -1,0 +1,53 @@
+# Welcome to Jekyll!
+#
+
+# Site settings
+title: Ling Lu
+description: I'm a former salesperson who loves coding and always learning. 
+owner: Ling Lu # or company name
+first_published: 2016 # if migrating another site, the year of your first publish
+email: jojoucsd@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://lingludeveloper.com" # the base hostname & protocol for your site
+social:
+  github: https://github.com/jojoucsd
+  linkedin-square: https://www.linkedin.com/in/ling-lu-331a23b0
+  email: jojoucsd@gmail.com
+  #flickr:
+  instagram: https://www.instagram.com/jojoucsd/
+  #youtube-square:
+  #spotify:
+  #stack-overflow:
+  #vimeo:
+  #reddit:
+  #stubleupon:
+  #delicious:
+  #pied-piper:
+  #digg:
+  #soundcloud:
+  #deviantart:
+  #angellist:
+  #tumblr-square:
+  #stackexchange:
+  #weibo:
+  #trello:
+  #foursquare:
+  #linux:
+  #bitbucket-square:
+  #vk:
+  #slack:
+  #vine:
+  #weixin:
+  #yelp:
+  #skyatlas:
+  #leanpub:
+  #connectdevelop:
+  #ils:
+  #forumbee:
+  #tripadvisor:
+  #amazon:
+
+# Build settings
+markdown: kramdown
+#sass:
+#  style: compressed
