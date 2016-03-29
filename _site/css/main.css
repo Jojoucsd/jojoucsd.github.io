@@ -1615,13 +1615,18 @@ dl {
 
 table {
   margin: 0 0 2em 0;
-  width: 100%; }
-  table tbody tr {
-    border: solid 1px #fff;
-    border-left: 0;
-    border-right: 0; }
-    table tbody tr:nth-child(2n + 1) {
-      background-color: rgba(144, 144, 144, 0.25); }
+  width: 100%;
+  /*		tbody {
+  			tr {
+  				border: solid 1px _palette(border);
+  				border-left: 0;
+  				border-right: 0;
+  
+  				&:nth-child(2n + 1) {
+  					background-color: _palette(border-bg);
+  				}
+  			}
+  		}*/ }
   table td {
     padding: 0.75em 0.75em; }
   table th {
@@ -2421,16 +2426,17 @@ body.is-menu-visible #menu {
   text-align: center; }
 
 #instagram-box img {
-  width: 90px;
-  height: 90px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-right: 10px; }
+  width: 95px;
+  height: 95px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*	  	margin-right: 15px;
+  	  	margin-left: 15px;*/ }
 
 #map-canvas {
-  width: 320px;
+  /*width: 320px;*/
   height: 320px;
   color: black; }
 

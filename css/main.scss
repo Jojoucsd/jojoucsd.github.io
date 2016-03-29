@@ -735,7 +735,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		margin: 0 0 _size(element-margin) 0;
 		width: 100%;
 
-		tbody {
+/*		tbody {
 			tr {
 				border: solid 1px _palette(border);
 				border-left: 0;
@@ -745,7 +745,7 @@ $baseurl: '{{ site.baseurl }}/images';
 					background-color: _palette(border-bg);
 				}
 			}
-		}
+		}*/
 
 		td {
 			padding: 0.75em 0.75em;
@@ -1532,17 +1532,18 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 	#instagram-box {
 	  img{
-	  	width: 90px;
-	  	height: 90px;
-	  	padding-right: 15px;
-	  	padding-left: 15px;
-	  	padding-top: 15px;
-	  	padding-bottom: 15px;
-	  	margin-right: 10px;
+	  	width: 95px;
+	  	height: 95px;
+	  	padding-right: 10px;
+	  	padding-left: 10px;
+	  	padding-top: 10px;
+	  	padding-bottom: 10px;
+/*	  	margin-right: 15px;
+	  	margin-left: 15px;*/
 	  }
 	}
 	#map-canvas {
-		width: 320px;
+		/*width: 320px;*/
 		height: 320px;
 		color: black;
 	}

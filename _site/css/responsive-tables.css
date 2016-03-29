@@ -15,20 +15,21 @@
 ----------------------------------------- */
 
 table th { font-weight: bold; }
-table td, table th { padding: 9px 10px; text-align: left; }
+table td, table th { padding: 10px 5px; text-align: left; }
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
 	
-	table.responsive { margin-bottom: 0; }
+	table.responsive { margin-bottom: 0; font-size:x-small;}
 	
-	.pinned { position: absolute; left: 0; top: 0; background: transparent; width: 35%; overflow: hidden; overflow-x: scroll; border-right: 1px solid #ccc; border-left: 1px solid #ccc; }
-	.pinned table { border-right: none; border-left: none; width: 100%; }
+	.pinned { position: absolute; left: 0; top: 0; background: transparent; width: 20%; overflow: hidden; overflow-x: scroll; font-size:x-small;
+}
+	.pinned table { border-right: 1px solid #ccc; ; border-left: none; width: 100%; }
 	.pinned table th, .pinned table td { white-space: nowrap; }
 	.pinned td:last-child { border-bottom: 0; }
 	
-	div.table-wrapper { position: relative; margin-bottom: 20px; overflow: hidden; border-right: 1px solid #ccc; }
-	div.table-wrapper div.scrollable { margin-left: 35%; }
+	div.table-wrapper { position: relative; margin-bottom: 25px; overflow: hidden;}
+	div.table-wrapper div.scrollable { margin-left: 20%; }
 	div.table-wrapper div.scrollable { overflow: scroll; overflow-y: hidden; }	
 	
 	table.responsive td, table.responsive th { position: relative; white-space: nowrap; overflow: hidden; }
