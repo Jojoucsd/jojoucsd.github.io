@@ -1,3 +1,7 @@
+Ling Lu Dev. Site by Ling Lu 2016
+
+The idea of making this site with Jekyll is because the github.io personal supports Jekyll.
+This sites originally used Spectral theme template and meshed up to three different other elements 
 Spectral by HTML5 UP
 html5up.net | @n33co
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
