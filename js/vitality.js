@@ -151,7 +151,7 @@ $(document).ready(function() {
   // Vide - Video Background Settings
   $('header.video').vide({
     // mp4: "mp4/camera.mp4",
-    mp4:"mp4/platesafe.mp4",
+    mp4:"mp4/platesafe1.mp4",
     poster: "img/creative/backgrounds/bg-mobile-fallback.jpg"
   }, {
     posterType: 'jpg'
